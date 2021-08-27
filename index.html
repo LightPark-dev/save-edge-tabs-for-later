@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Save Edge Tabs For Later</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amaranth:700|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="landing.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./Assets/icon-48.ico"/>
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="top">
+        <div class="row">
+            <div class="col m6">
+                <div class="row" id="dev-row">
+                    <img id="dev-logo" src="./Assets/dev-logo.png">
+                    <h3 class="name">LightPark</h3>
+                </div>
+                
+                <h1 class="header catch-phrase">Save Edge Tabs For Later</h1>
+                <h5 class="tagline" style="font-size: 1.4rem;">The best extension in its category just got a whole lot better.
+                    <br>Be more productive with your tabs.</h5>
+                
+                <h5 class="tagline" style="font-size: 1.4rem; margin-bottom: 10%;">Microsoft Edge optimized version of the highly rated chrome extension 'Save Chrome Tabs For Later'</h5>    
+
+                <div class="row" style="padding-left: 0.75rem;">
+                    <a class="waves-effect blue-grey darken-4 btn-large hoverable log-in" href="#pricing-section">Go Pro</a>
+                    <a id="product-hunt-medal" href="https://www.producthunt.com/posts/save-chrome-tabs-for-later-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-save-chrome-tabs-for-later-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=308817&theme=light&period=daily" alt="Save Chrome Tabs For Later - Set aside your currently open tabs quickly reopen them later | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+                </div>
+                
+            </div>
+            <div class="col m6">
+                <img src="./Assets/App-view-screenshot.png" class="top-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits -->
+    <div class="benefits">
+        <h1 class="header" id="benefit-heading">Pro Benefits</h1>
+
+        <h3>Persist Tabs</h3>
+        <h5>Individual control over each tab card whether it is persistent or temporary.</h6>
+        <div class="row benefit-details">
+            <p class="col m6" style="padding-left: 0px;">
+                By default, any tabs that you set aside are temporary i.e. the tab card is deleted once it is restored.
+                Now you can set any tab card to be persisted by simply checking the 'Persist' checkbox.
+                <br><br>This comes in handy for tabs that you open a lot, for example, 
+                a set of tabs that you fire up every single morning when you start work. 
+                Without this feature, you would have to remember to set these tabs aside at the end of your workday or else they will be lost.
+                <br><br>All persisted tabs are shown before temporary ones in the list. You can switch a tab back to being temporary by unchecking the 'Persist' checkbox.
+            </p>
+            <img src="./Assets/wt-temporary.png" class="persist-img" class="m6">
+        </div>
+        
+        <h3>Name Tabs</h3>
+        <h5>Give a name to a tab card to identify and make sense of it.</h6>
+        <div class="row benefit-details" style="margin-top: 0px; margin-bottom: 3%;">
+            <p class="col m6" style="padding-left: 0px; padding-top: 35px;">
+                Although a preview of 3 tabs is shown on each tab card, many times it is not enough as it does not convey 
+                the purpose of those tabs. You could have set aside 18 tabs some time ago but just looking at the first 3 tab names
+                shown on the card may not be enough to tell you what you were using them for. 
+                <br><br>This is where this feature comes to the rescue. You can optionally give a name to any tab card whenever you want.
+            </p>
+            <img src="./Assets/name-1.png" class="persist-img" class="m6">
+        </div>
+        <div class="row" style="margin-bottom: 6%;">
+            <img src="./Assets/name-2.png" class="persist-img m6">
+            <img src="./Assets/name-3.png" class="persist-img m6">
+        </div>
+
+        <h3>Performance Improvements</h3>
+        <h5>Improved performance of Restore functionality in pro version.</h6>
+
+        <h3 style="margin-top: 6%;">On-Demand Sync</h3>
+        <h5>Set tabs aside on one device and restore them on another device. Yes, that is not a fantasy.</h6>
+        <h6>(Feature in early development*)</h6>
+    </div>
+
+    <!-- Pricing -->
+    <div id="pricing-section">
+        <h1 class="header" id="pricing-heading">Pricing</h1>
+        <h2 id="price-tag">INR 1,299/-</h2>
+        <h4>(One thousand two hundred and ninety-nine Indian Rupees)</h4>
+
+        <ul>
+            <li>One-time fee only.</li>
+            <li>Any future updates free.</li>
+            <li>Use on any number of devices where you are signed in with your Microsoft account.</li>
+            <li>Pay securely through Stripe.</li>
+        </ul>
+
+        <p>
+            As and when new feature updates arrive, the price of the pro version will go up significantly. 
+            <br>Best time to go pro is now.<br>
+            <br>
+            EARLY BIRD OFFER: Use code <b>EARLY20</b> and get <b>20%</b> off the listed price. First 100 customers only.
+        </p>
+    </div>
+
+    <!-- Delivery Details -->
+    <div class="action">
+        <p id="delivery-details">
+            Once you successfully complete your payment, you will receive an activation key within 2 business days on the 
+            <u>email you entered during Stripe checkout.</u> This email can be any of your email addresses, 
+            it does not need to be the one with which you are signed into Edge Browser.
+            <br><br>We recommend that you keep an eye on all your inbox folders including spam. 
+            Sometimes your payment might take some time to reflect on our end.
+            If you don't receive an email in 5 days from <b>dev.skstudios@gmail.com</b> just drop a mail on this email and 
+            we will help you out. 
+        </p>
+
+        <p id="security-disclaimer">
+            Disclaimer: This is a secure https web page. It has no idea who you are or your payment information. 
+            Your payment is handled only by Stripe in a secure way.
+        </p>
+
+        <a id="actionBtn" class="waves-effect blue-grey darken-4 btn-large hoverable" 
+           href="https://buy.stripe.com/9AQ5l56rbdMF8uY3ce">
+        <i class="fab fa-stripe"></i>Purchase</a>
+    </div>
+
+    <!-- Promotion Section -->
+    <div class="promotion">
+        <h4 class="header" id="promotion-heading">Want some freebies?</h4>
+        <p>
+            This one is for the fans. If you love this extension, follow the steps below and 
+            you might just receive an activation key for free!
+            <br>
+            <br>1) Go to our Microsoft Edge Add-ons page <a href="#">here</a>.
+            <br>2) Write a positive review about why you love this extension or how it makes you more productive. 
+                If you have already written a positive review jump to the next step.
+            <br>3) Send a screenshot of the posted review to <b>dev.skstudios@gmail.com</b>. Enter the subject "Promotion Keys - Edge".
+            <br>
+            <br>For every 50 entries, we will pick a random entry and mail that user an activation key completely free! 
+            Duplicate entries will be disqualified.
+            <br>
+            <br>This promotion ends on 30 Oct 2021 23:59 IST or once 30 keys are given out whichever is earlier.
+        </p>
+    </div>
+
+    <!-- Copyright and Policy Section -->
+    <div class="final-section">
+        <p>Refund Policy: We do not offer refunds. However, if you are not able to access the pro version in Microsoft Edge 
+            due to technical problems, reach out to us at <b>dev.skstudios@gmail.com</b> and we will help you out or offer a refund.
+        </p>
+        <p>
+            * - Developer reserves the right to cancel or change any feature in development if it does not meet their quality standards.
+        </p>
+        <p>© Copyright 2021 LightPark</p>
+    </div>
+
+</body>
